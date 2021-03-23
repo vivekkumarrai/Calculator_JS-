@@ -1,0 +1,60 @@
+.container{
+    text-align: center;
+    margin-top: 25px;
+   /*  background-color: dimgray; */
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+table{
+    margin: auto;
+}
+input{
+  border-top-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+    border: 5px solid rgb(235, 229, 229);
+    font-size: 34px;
+    height: 65px;
+    width: 456px;
+}
+button{
+    border-radius: 20px;
+    font-size: 40px; 
+    background: rgb(180, 169, 162);
+    border: 2px solid blanchedalmond;
+    width: 102px;
+    height: 58px;
+    margin: 4px;
+}
+/* .button:hover{
+    transition: 1s;
+    transform: scale(1.03);
+    box-shadow: blanchedalmond;
+      } */
+.calculator{
+    border: 4px solid gray;
+    background-color: rgb(87, 122, 122);
+    padding: 23px;
+    border-top-left-radius: 53px;
+    border-bottom-right-radius: 53px;
+    display: inline-block;
+
+}
+.heart-title {
+    animation: beat 1s infinite alternate;
+    transform-origin: center;
+    color: darksalmon;
+    /* width: 30%; */
+  }
+  
+  .heart {
+    animation: beat 1s infinite alternate;
+    transform-origin: center;
+    width: 30%;
+  }
+  
+  /* Heart beat animation */
+  @keyframes beat {
+    to {
+      transform: scale(1.4);
+    }
+  }
